@@ -4,7 +4,7 @@ const { PunchWithBarcode, PunchWithCreds } = require('./timeclock');
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
-    databaseURL: "https://autoclock-10615.firebaseio.com"
+    databaseURL: process.env.FB_DBUrl
   });
 
 let db = admin.firestore();
