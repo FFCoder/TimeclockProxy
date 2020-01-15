@@ -17,6 +17,7 @@ const BASE_DATA = {
     OrgId: process.env.OrgId,
     KioskId: process.env.KioskId,
     LoadStamp: getLoadStamp(),
+    KioskTypeId: 5
 
 }
 const HEADERS = {
