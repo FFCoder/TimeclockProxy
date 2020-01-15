@@ -1,5 +1,5 @@
 const admin = require('firebase-admin');
-const serviceAccount = require('./service_account.json')
+const serviceAccount = require('./service-account.json')
 const { PunchWithBarcode, PunchWithCreds } = require('./timeclock');
 
 admin.initializeApp({
